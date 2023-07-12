@@ -1,0 +1,39 @@
+<html>
+
+<head>
+
+    <title>Let's Chat Web App</title>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="Kwitter_room.css">
+    <script src="Kwitter_room.js"></script>
+
+</head>
+
+<body>
+    
+    <h3 id="title" class="header">Let Chat  <sup><img src ="Pink phone logo.png"></sup></h3>
+
+    <h4 class="color_white" id="user_name"></h4>
+    <div class="form-group input_div_room_page">
+    <h4>Add Room : </h4>
+    </div>
+
+
+    <button onclick="logout()" id="logout_button">Logout</button>
+
+    <h4 id="logged_username"></h4>
+
+    <input type="text" class="form-control" id="room_name" placeholder="Room Name">
+
+    <button onclick="addRoom()" id="add_room_button">Add Room</button>
+
+
+
+</body>
+
+</html>
